@@ -711,8 +711,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/blossom/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib/egl/libGLESv1_CM_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_mtk.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib/egl/libGLESv2_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_mtk.so \
-    vendor/xiaomi/blossom/proprietary/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
-    vendor/xiaomi/blossom/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib/gc_gc02m10_ii_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc_gc02m10_ii_IdxMgr.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib/gc_gc02m10_ii_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc_gc02m10_ii_tuning.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib/gc_gc02m1_ii_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/gc_gc02m1_ii_IdxMgr.so \
@@ -1199,8 +1197,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/egl/libGLESv1_CM_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_mtk.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/egl/libGLESv2_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_mtk.so \
-    vendor/xiaomi/blossom/proprietary/vendor/lib64/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_gift.so \
-    vendor/xiaomi/blossom/proprietary/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
