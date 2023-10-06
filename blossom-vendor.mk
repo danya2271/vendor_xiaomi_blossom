@@ -828,6 +828,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/blossom/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
+    vendor/xiaomi/blossom/proprietary/vendor/lib/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge-v30.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib/libPVRMtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPVRMtkutils.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib/libPVROCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPVROCL.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib/libPVRScopeServices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPVRScopeServices.so \
@@ -1211,6 +1212,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/libIMGegl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libIMGegl.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libNoFpsActor.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
+    vendor/xiaomi/blossom/proprietary/vendor/lib64/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge-v30.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/libPVRMtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPVRMtkutils.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/libPVROCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPVROCL.so \
     vendor/xiaomi/blossom/proprietary/vendor/lib64/libPVRScopeServices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libPVRScopeServices.so \
@@ -1312,13 +1314,6 @@ PRODUCT_PACKAGES += \
     ImsService \
     mediatek-common \
     mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-ims-extension-plugin \
-    mediatek-ims-legacy \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
     com.fingerprints.extension \
     android.hardware.gpu@1.0-service \
     android.hardware.wifi.hostapd \
