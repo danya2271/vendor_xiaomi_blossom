@@ -115,6 +115,12 @@ dex_import {
 }
 
 dex_import {
+	name: "mediatek-telephony-common",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/mediatek-telephony-common.jar"],
+}
+
+dex_import {
 	name: "com.fingerprints.extension",
 	owner: "xiaomi",
 	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
